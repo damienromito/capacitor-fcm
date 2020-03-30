@@ -99,6 +99,7 @@ Download the `google-services.json` file and copy it to `android/app/` directory
 - `mkdir www && touch www/index.html`
 - `npx cap add ios`
 - `npm install --save capacitor-fcm`
+- `npx cap update ios
 - `npx cap sync ios` _(always do sync after a plugin install)_
 - `npx cap open ios`
 
